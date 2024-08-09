@@ -8,8 +8,9 @@
 
 header{
     border-radius: 25px;
-    box-shadow: 15px 15px 15px;
+    box-shadow: 0px 0px 30px;
     display: flex;
+   flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -28,13 +29,16 @@ nav{
     text-align: center;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 
-a{
-    color: black;
+nav a{
+    color: #004aad;
     font-size: 20px;
     padding-right: 20px;
+    text-decoration: none;
+    align-items: center;
 }
 
 .padre{
@@ -58,10 +62,9 @@ a{
     border-top-right-radius: 15px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: 25px;
+    
     text-align: center;
-    background-image: linear-gradient(to right, #559fff, #4495ff, #338aff, #227fff, #1173ff, #0069ff, #005fff, #0054ff, #0048ff, #003bff, #0029ff, #000cff);
-    box-shadow: 5px 5px 5px 0px;
+    color: #004aad;
 }
 
 button{
