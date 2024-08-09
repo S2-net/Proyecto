@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+
+
+header{
+    border-radius: 25px;
+    box-shadow: 15px 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    margin: 20px;
+    height: 70px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+nav{
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a{
+    color: black;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.padre{
+    grid-area: left;
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    background-color: white;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo{
+    padding-top: 15px;
+    font-size: 35px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    text-align: center;
+    background-image: linear-gradient(to right, #559fff, #4495ff, #338aff, #227fff, #1173ff, #0069ff, #005fff, #0054ff, #0048ff, #003bff, #0029ff, #000cff);
+    box-shadow: 5px 5px 5px 0px;
+}
+
+button{
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(66, 66, 255);
+    font-weight: bold;
+}
+
+.container{
+    padding: 20px;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+}
+@media(max-width: 150px){
+    .container{
+        width: 150px;
+   }
+}
+
+.abuelo{
+    margin-top: 30px;
+    margin-inline: 120px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-areas: 
+    "left  right";
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.right{
+    grid-area: right;
+}
+
+h3{
+    font-size: 18px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.busqueda{
+    padding-top: 15px;
+    font-size: 35px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 0px 5px 5px;
+}
+
+.buscar{
+    justify-content: left;
+    height: 25px;
+}

@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+<link rel="stylesheet" href="styles/see.css">
+
+    <title>Piedra, papel o tijera - Augusto de los Santos</title>
+</head>
+<body>
+  
+<header>
+    <h1>Piedra, papel o tijera</h1>
+    <p> prueba de HTML, CSS y JS</p>
+</header>
+
+<main>
+    <p class="instrucciones" id="instrucciones"> consigue 5 puntos para ganar!
+
+    </p>
+    <div class="marcador">
+        <p class="nombre nombre-jugador"> Jugador</p>
+        <p class="nombre nombre-pc">Maquina</p>
+        <p class="puntos">
+            <span id="puntosjugador">0</span>
+            <span>-</span>
+            <span id="puntospc">0</span>
+
+        </p>
+    </div>
+    <div class="elegi-tu-arma" id="eligearma">
+   
+<h2> Elige tu arma</h2>
+    <div class="armas" >
+    
+        <button class="arma" id="piedra" > <img src="img/b55eccb8fb67c9fd017e5df9f47cab3e-roca-de-piedra.png" height="50" width="50" alt="piedra" title="piedra"> 
+        </button>
+
+        <button class="arma" id="papel"> <img src="img/4a93f65000dc00c1be0daedb7647d9e8-icono-3d-de-hoja-de-papel.png" height="50" width="50" alt="papel" title="papel"> 
+        </button>
+
+        <button class="arma" id="tijera"> <img src="img/243c51de50d3a698bfddead34323dff1-icono-de-tijeras-de-corte-de-pelo.png" height="50" width="50" alt="tijera" title="tijera"> 
+        </button>
+
+    </div>
+        </div>
+
+    <div class="mensaje disabled" id="mensaje">
+    <p> usaste: <span class="eleccion" id="eleccionUsu"> papel <img src="img/4a93f65000dc00c1be0daedb7647d9e8-icono-3d-de-hoja-de-papel.png" height="20" width="20" alt="papel">
+</span><br>
+    y la maquina usó: <span class="eleccion" id="eleccionmaquina">piedra <img src="img/b55eccb8fb67c9fd017e5df9f47cab3e-roca-de-piedra.png" height="20" width="20" > 
+    </span></p>    
+    <p class="gana-punto" id="gana-punto"> ganaste un punto</p>
+    </div>
+<button class="btn disabled" id="reiniciar">¡ Volver a jugar !</button>
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>
