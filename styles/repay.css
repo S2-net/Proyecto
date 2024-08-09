@@ -3,16 +3,25 @@
     padding: 0%;
     text-decoration: none;
 }
+body{
+
+    background-image: url(/images/resi.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 
 
 
 header{
-    border-radius: 25px;
+    border-radius: 0px 0px 15px 15px ;
     box-shadow: 0px 0px 30px;
     display: flex;
    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
 }
 
 img{
@@ -131,3 +140,4 @@ p{
     justify-content: left;
     height: 25px;
 }
+
