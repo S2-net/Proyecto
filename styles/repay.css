@@ -19,7 +19,7 @@ header{
     border-radius: 0px 0px 15px 15px ;
     box-shadow: 0px 0px 30px;
     display: flex;
-   flex-wrap: nowrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     background-color: white;
