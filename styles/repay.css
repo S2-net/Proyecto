@@ -141,3 +141,14 @@ p{
     height: 25px;
 }
 
+.navbar{
+    margin-inline: 8%;
+    border-radius: 15px;
+}
+
+.propuesta{
+    margin-inline: 8%;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 15px black;
+}
