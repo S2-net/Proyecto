@@ -34,6 +34,7 @@ body {
     margin: 10px 0;
     border: 1px solid #b4b4b4;
     border-radius: 4px;
+    
 }
 .login-container input[type="submit"],
 button {
@@ -47,6 +48,7 @@ button {
     cursor: pointer;
     margin-top: 5px;
     justify-content: center;
+ 
 }
 .login-container input[type="submit"]:hover {
     background-color: #0056b3;
@@ -62,3 +64,5 @@ img{
     display: flex;
     flex-wrap: wrap;
 }
+
+
