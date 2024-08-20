@@ -1,5 +1,5 @@
 
-body {
+.bodyini{
     font-family: Arial, sans-serif;
     background-color: #cecece   ;
     display: flex;
@@ -54,15 +54,31 @@ button {
     background-color: #0056b3;
 }
 
-button:hover{
-    background-color: #0056b3;
 
-}
-
-img{
+.imgini{
     height: 147px;
     display: flex;
     flex-wrap: wrap;
 }
 
+.registrate-link {
+    color: #337ab7;
+    text-decoration: none;
+}
 
+.registrate-link:hover {
+    color: #23527c;
+}
+
+.olvide-contrasena {
+    margin-top: 10px;
+}
+
+.olvide-contrasena a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.olvide-contrasena a:hover {
+    color: #23527c;
+}

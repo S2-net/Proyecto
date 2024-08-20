@@ -4,26 +4,27 @@
     <link rel="shortcut icon" href="images/ICONO.png" type="icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/iniciosesion.css">
+    <link rel="stylesheet" href="styles/repay.css">
     <title>Inicio de Sesión</title>
-
 </head>
-<body>
+<body class="bodyini">
     <div class="login-container">
-
-        <img src="images/logohd.jpeg" alt="">
+        <img class="imgini" src="images/logohd.jpeg" alt="">
 
         <h2>Iniciar Sesión</h2>
         <form action="/login" method="post">
-            <input type="text" name="username" placeholder="Introduce tu correo" required>
-            <input type="password" name="password" placeholder="Contraseña" required>
+            <input type="text" id="username" name="username" placeholder="Correo electrónico" required>
+            <input type="password" id="password" name="password" placeholder="Contraseña" required>
             <input type="submit" value="Entrar">
-
         </form>
 
-        <a href="registrar.html"><button>Registrarse</button></a>
-
+        <div class="Registrate">
+            <p>¿No tiene una cuenta?</p>
+            <a href="registrar.html" class="registrate-link">Registrate</a>
+        </div>
+        <div class="olvide-contrasena">
+            <a href="#">Olvidé mi contraseña</a>
+        </div>
     </div>
-
 </body>
 </html>
