@@ -172,14 +172,13 @@ h2{
 
 }
 
-.abuelo-resi{
+.abueloresi{
     margin-top: 30px;
     margin-inline: 120px;
     margin-bottom: 50px;
-    display: grid;
-    grid-template-areas: 
-    "left  left     left"
-    "left   left    left";
+    display: flex;
+    flex-wrap: wrap;
+    height: 40%;
     padding: 20px;
     background-color: white;
     border-radius: 5px;
